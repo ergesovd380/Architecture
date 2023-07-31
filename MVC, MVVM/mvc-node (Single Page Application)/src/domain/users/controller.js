@@ -23,7 +23,7 @@ module.exports = {
             });
         }
 
-    },
+    }, 
     removeById: (req, res) => {
         try {
             const id = req.query.id;
